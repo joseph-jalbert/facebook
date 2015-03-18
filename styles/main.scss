@@ -1,0 +1,53 @@
+// bower:scss
+// endbower
+
+@import "bourbon/bourbon";
+@import "neat/neat";
+@import "base/base";
+
+
+// $max-width: 76%;
+$mobile: new-breakpoint(max-width 700px 4);
+
+
+/************* general layout rules *************/
+
+* {
+  margin: 0;
+}
+
+body {  
+  background-color: #edf0f5;
+  font-family: 'Lucida Grande';
+}
+
+html,
+body {
+  margin:0;
+  padding:0;
+  height:100%;
+}
+
+#l-wrapper {
+  min-height: 100%;
+  position: relative;
+}
+
+@import "layout/l-header";
+@import "layout/l-body";
+@import "layout/l-footer";
+@import "modules/m-logo";
+@import "modules/m-login";
+@import "modules/m-description";
+@import "modules/m-signup";
+@import "modules/m-languages";
+@import "modules/m-links";
+
+
+/*# sourceMappingURL=main.css.map */        /************ FOR SASS SOURCE-MAPPING ********/
+
+
+
+
+
+

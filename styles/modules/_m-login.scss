@@ -1,0 +1,34 @@
+/*********** login module ***********/
+
+header form.field.m-login {
+  @include span-columns(5);
+  @include media($mobile) {
+    @include span-columns(3);
+  }
+  margin-top: 25px;
+}
+
+form.m-login li {
+  display: inline-block;
+  float: left;
+  margin-right: 15px;
+}
+
+header form.m-login ul li.bottom {
+  clear: left;  
+}
+
+header form.m-login label {
+  color: white;
+  margin-bottom: 0;
+}
+
+header.m-login li {
+  font-size: 0.9em;
+}
+
+button.m-login {
+  margin-top: 22px;
+  padding: 4px;
+  background-color: #617aac;
+}

@@ -1,0 +1,36 @@
+/***********  description module  *************/
+
+.m-description {
+  @include span-columns(7);
+  @include media($mobile) {
+    @include span-columns(3);
+  }
+}
+
+div.m-description img {
+  margin-right: 15px;
+  float: left;
+  width: 3em;
+}
+
+span.desc {
+  display: inline-block;
+  margin: 10px 0 0 10px;
+}
+
+.m-description ul {
+  display: inline-block;
+  width: 100%
+}
+
+div.m-description li {
+  margin: 7% 2% 0 0;
+  font-size: large;
+}
+
+.m-description h2 {
+  display: inline-block;
+  font-size: 2em;
+  margin-top: 10%;
+  width: 80%;
+}

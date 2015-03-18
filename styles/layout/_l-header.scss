@@ -1,0 +1,13 @@
+/*********** header layout ***********/
+
+div.l-header-wrapper {
+  background: #375794;
+  width: 100%;
+}
+
+header {
+  @include outer-container;
+  background: #375794;
+  height: 100px;
+}
+

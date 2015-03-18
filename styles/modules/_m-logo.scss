@@ -1,0 +1,17 @@
+/*********** logo module ***********/
+
+h1.m-logo a {
+  display: inline-block;
+  font-size: 50px;
+  color: white;
+  font-weight: 900;
+  letter-spacing: -3px;
+}
+
+header > h1.m-logo {
+  @include span-columns(7);
+  @include media($mobile) {
+  	@include span-columns(3);
+	}
+  margin-top: 30px;
+}

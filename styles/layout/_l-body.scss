@@ -1,0 +1,16 @@
+/***********  body layout *************/
+
+div.l-content-wrapper {
+  width: 100%;
+}
+
+div.l-content {
+  @include outer-container;
+  background: #edf0f5;
+}
+
+
+.l-content-wrapper {
+  padding: 10px;
+  padding-bottom: 200px;   /* Height of the footer element */
+}
